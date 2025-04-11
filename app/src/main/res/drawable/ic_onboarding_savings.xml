@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Watering can -->
+    <path
+        android:fillColor="#008080"
+        android:pathData="M80,60 Q90,60 90,70 L90,90 L120,90 Q130,90 130,100 L130,110 Q130,120 120,120 L70,120 Q60,120 60,110 L60,70 Q60,60 70,60 Z"/>
+    <path
+        android:fillColor="#008080"
+        android:pathData="M130,100 C140,100 150,110 160,130"/>
+    
+    <!-- Plant pot -->
+    <path
+        android:fillColor="#FFA500"
+        android:pathData="M90,140 L110,140 L115,160 L85,160 Z"/>
+    
+    <!-- Growth arrow -->
+    <path
+        android:fillColor="#008080"
+        android:pathData="M100,140 L100,100 L90,110 L100,100 L110,110"/>
+    
+    <!-- Coin -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M70,80 A15,15 0 1,1 70,110 A15,15 0 1,1 70,80"/>
+</vector>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">E-Shop</string>
+    <!-- Navigation -->
+    <string name="title_home">Home</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_profile">Profile</string>
+    
+    <!-- Authentication -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="btn_logout">Logout</string>
+    
+    <!-- Product List -->
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="price_format">$%.2f</string>
+    <string name="cart_empty">Your cart is empty</string>
+    <string name="checkout">Checkout</string>
+</resources>

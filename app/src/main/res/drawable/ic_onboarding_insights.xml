@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Phone/Device background -->
+    <path
+        android:fillColor="#008080"
+        android:pathData="M60,40 L140,40 Q150,40 150,50 L150,150 Q150,160 140,160 L60,160 Q50,160 50,150 L50,50 Q50,40 60,40"/>
+    
+    <!-- Graph line and arrow -->
+    <path
+        android:strokeColor="#FFA500"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M70,120 Q90,100 110,90 L130,70"/>
+    <path
+        android:fillColor="#FFA500"
+        android:pathData="M125,65 L135,75 L135,65 Z"/>
+    
+    <!-- Pie chart -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,90 A20,20 0 1,1 80,130 A20,20 0 1,1 80,90"/>
+    <path
+        android:fillColor="#FFA500"
+        android:pathData="M80,110 L80,90 A20,20 0 0,1 100,110 Z"/>
+    
+    <!-- Coin -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M160,120 A15,15 0 1,1 160,150 A15,15 0 1,1 160,120"/>
+</vector>

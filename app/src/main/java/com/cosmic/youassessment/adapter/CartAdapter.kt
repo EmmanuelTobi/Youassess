@@ -27,8 +27,7 @@ class CartAdapter(
         holder.bind(getItem(position))
     }
 
-    inner class CartViewHolder(private val binding: ItemCartBinding) :
-        RecyclerView.ViewHolder(binding.root) {
+    inner class CartViewHolder(private val binding: ItemCartBinding) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(cartItem: CartItem) {
             val product = cartItem.product

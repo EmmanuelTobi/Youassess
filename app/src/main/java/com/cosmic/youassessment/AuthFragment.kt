@@ -43,6 +43,7 @@ class AuthFragment : Fragment() {
     }
 
     private fun setupViews() {
+
         binding.toggleAuthModeButton.setOnClickListener {
             isLogin = !isLogin
             updateAuthMode()

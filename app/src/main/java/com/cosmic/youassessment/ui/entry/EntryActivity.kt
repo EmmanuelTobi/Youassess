@@ -62,7 +62,7 @@ fun EntryScreen(
                 .padding(horizontal = 32.dp)
         ) {
             Text(
-                text = "Go to Main App",
+                text = "Go to E-commerce",
                 style = MaterialTheme.typography.bodyLarge,
                 fontFamily = CapriolaFamily
             )

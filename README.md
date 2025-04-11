@@ -18,6 +18,12 @@ YouAssessment is an application that contains important implementations around e
 - **Navigation**: Jetpack Navigation Component
 - **Material Design 3**: Modern Android UI components
 
+-------
+
+<img src="https://github.com/user-attachments/assets/a152d5ed-00eb-48ff-b755-7bb46713ac91" height="400" alt="Screenshot"/>
+<img src="https://github.com/user-attachments/assets/d5894f3e-d9ef-48bb-904c-38d0e7159222" height="400" alt="Screenshot"/>
+<img src="https://github.com/user-attachments/assets/43e98918-d77d-4f60-b371-9df757a00163" height="400" alt="Screenshot"/>
+
 ## Project Structure
 
 ```
@@ -40,7 +46,7 @@ app/
 
 ### Installation
 
-1. Clone this repository:
+1. Clone this repository
 
 2. Open the project in Android Studio
 

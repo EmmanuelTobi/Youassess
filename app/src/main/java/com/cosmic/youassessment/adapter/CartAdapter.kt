@@ -41,13 +41,19 @@ class CartAdapter(
                 quantityText.text = cartItem.quantity.toString()
 
                 btnPlus.setOnClickListener {
-                    onUpdateQuantity(product.id.toString(), cartItem.quantity + 1)
+                    val newQuantity = cartItem.quantity + 1
+                    quantityText.text = newQuantity.toString()
+                    productPrice.text = String.format("$%.2f", cartItem.totalPrice * newQuantity)
+                    onUpdateQuantity(product.id.toString(), newQuantity)
                 }
 
                 btnMinus.setOnClickListener {
                     if (cartItem.quantity >= 1) {
-                        onUpdateQuantity(product.id.toString(), cartItem.quantity - 1)
+                        val newQuantity = cartItem.quantity - 1
+                        quantityText.text = newQuantity.toString()
+                        onUpdateQuantity(product.id.toString(), newQuantity)
                     }
+                    productPrice.text = String.format("$%.2f", cartItem.totalPrice * cartItem.quantity)
                 }
 
                 btnRemove.setOnClickListener {

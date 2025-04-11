@@ -40,10 +40,7 @@ app/
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/youassessment.git
-   ```
+1. Clone this repository:
 
 2. Open the project in Android Studio
 
